@@ -4,10 +4,10 @@ def reverse_each_word(string)
   reverse_array= []
   reverse_string=""
  string_array.each do |element|
-   element.reverse
-   reverse_array << element.reverse
+  reverse_string = element.reverse 
+   
   end
-  
+  reverse_string
 end
 
 string ="Hello there, and how are you?"
