@@ -5,8 +5,8 @@ def reverse_each_word(string)
  string_array.each do |element|
    element.reverse 
    reverse_array << element.reverse
+   puts reverse_array.to_s
   end
-  puts reverse_array.to_s
 end
 
 string ="Hello there, and how are you?"
