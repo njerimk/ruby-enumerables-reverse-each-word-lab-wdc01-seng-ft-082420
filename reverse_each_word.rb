@@ -3,9 +3,9 @@ def reverse_each_word(string)
   string_array = string.split
   reverse_array= []
  string_array.each do |element|
+   element + element
    element.reverse 
    reverse_array << element.reverse
-   puts reverse_array.to_s
   end
 end
 
