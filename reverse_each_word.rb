@@ -6,7 +6,7 @@ def reverse_each_word(string)
    element.reverse.to_s
    reverse_array << element.reverse
   end
-  puts reverse_array
+  puts reverse_array.to_s
 end
 
 string ="Hello there, and how are you?"
