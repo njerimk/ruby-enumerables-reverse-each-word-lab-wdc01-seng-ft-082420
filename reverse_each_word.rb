@@ -6,7 +6,7 @@ def reverse_each_word(string)
   reverse_array << element.reverse 
   reverse_string = reverse_array.join(" ") 
   end
-  p reverse_string
+  reverse_string
 end
 
 string ="Hello there, and how are you?"
