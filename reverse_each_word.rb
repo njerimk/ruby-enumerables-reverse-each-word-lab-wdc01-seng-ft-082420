@@ -3,10 +3,8 @@ def reverse_each_word(string)
   string_array = string.split
   reverse_string= []
  string_array.each do |element|
-   element.reverse.to_s
-   reverse_string= element.reverse.to_s
+   puts element.reverse.to_s
   end
-  puts reverse_string
 end
 
 string ="Hello there, and how are you?"
