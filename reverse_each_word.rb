@@ -9,5 +9,5 @@ def reverse_each_word(string)
   puts reverse_string
 end
 
-string ="Hello pear, and how are you?"
+string ="Hello there, and how are you?"
 reverse_each_word(string)
