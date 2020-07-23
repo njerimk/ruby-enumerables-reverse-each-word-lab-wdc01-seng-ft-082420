@@ -7,7 +7,7 @@ def reverse_each_word(string)
   reverse_string = element.reverse 
    
   end
-  reverse_string
+  puts reverse_string
 end
 
 string ="Hello there, and how are you?"
